@@ -1,4 +1,11 @@
 // Archivo: Cliente.java
+/**
+ * Representa a un Cliente de la pajarería.
+ * Almacena la información personal y de contacto del cliente.
+ * 
+ * @author Juanjo Merchante
+ * @version 1.0
+ */
 public class Cliente {
     private String nombre;
     private String dni;
