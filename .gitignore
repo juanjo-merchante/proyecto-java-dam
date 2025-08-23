@@ -1,1 +1,8 @@
 *.class 
+  
+# Compiled files  
+*.jar  
+  
+# IDE configuration files  
+.vscode/  
+.idea/ 
