@@ -1,4 +1,11 @@
 // Archivo: Pajaro.java
+/**
+ * Representa un Pájaro en el inventario de la pajarería.
+ * Contiene detalles como la especie, el precio y la edad.
+ * 
+ * @author Juanjo Merchante
+ * @version 1.0
+ */
 public class Pajaro {
     private String especie;
     private String color;
