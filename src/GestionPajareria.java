@@ -1,14 +1,34 @@
 // Archivo: GestionPajareria.java
 import java.util.*;
 
+/**
+ * Clase principal de la aplicación.
+ * Se encarga de la lógica de la aplicación,
+ * la gestión de datos y la interacción con el usuario.
+ * 
+ * @author Juanjo Merchante
+ * @version 1.0
+ */
 public class GestionPajareria {
 
+/**
+ * Constructor por defecto para la clase de gestión.
+ */
+public GestionPajareria() {
+    // Este constructor está intencionadamente vacío.
+}
     // Listas para almacenar los datos en memoria
     private static List<Cliente> clientes = new ArrayList<>();
     private static List<Pajaro> pajarosDisponibles = new ArrayList<>();
     private static List<Venta> ventasRealizadas = new ArrayList<>();
     private static Scanner scanner = new Scanner(System.in);
 
+/**
+ * Punto de entrada principal de la aplicación.
+ * Carga datos iniciales y ejecuta el bucle del menú principal.
+ * 
+ * @param args Argumentos de línea de comandos (no se utilizan).
+ */
     public static void main(String[] args) {
         // Cargamos datos iniciales para facilitar las pruebas
         cargarDatosIniciales();
