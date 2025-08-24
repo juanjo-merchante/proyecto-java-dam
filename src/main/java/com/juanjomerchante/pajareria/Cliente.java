@@ -1,3 +1,4 @@
+package com.juanjomerchante.pajareria;
 // Archivo: Cliente.java
 /**
  * Representa a un Cliente de la pajarería.

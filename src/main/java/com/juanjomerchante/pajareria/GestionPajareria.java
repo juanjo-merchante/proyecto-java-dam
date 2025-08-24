@@ -1,3 +1,4 @@
+package com.juanjomerchante.pajareria;
 // Archivo: GestionPajareria.java
 import java.util.*;
 

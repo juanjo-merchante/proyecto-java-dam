@@ -1,3 +1,4 @@
+package com.juanjomerchante.pajareria;
 // Archivo: Venta.java
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

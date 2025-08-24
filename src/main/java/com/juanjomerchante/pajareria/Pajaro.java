@@ -1,3 +1,4 @@
+package com.juanjomerchante.pajareria;
 // Archivo: Pajaro.java
 /**
  * Representa un Pájaro en el inventario de la pajarería.
